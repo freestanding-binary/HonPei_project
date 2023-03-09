@@ -2,5 +2,5 @@
 
 
 ### tasks
-[] not done yet
-[x] done
+- [] not done yet
+- [x] done

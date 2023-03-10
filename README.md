@@ -1,5 +1,5 @@
 # TaiPei_project
-<img src="/assets/img/logo.png" style="height: 100px; width:100px;"/>
+<img src="/assets/img/logo.png" style="height: 400px; width:300px;"/>
 
 ### tasks
 - [ ] not done yet

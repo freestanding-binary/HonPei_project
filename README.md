@@ -10,3 +10,4 @@
 - [ ] Automate search for [Mini Taiwanese Mandarin Dictionary](https://dict.mini.moe.edu.tw). This resource is specially useful for searching individual characters, and the problem is the same as described for Zhonga ZH-RU: each character has its own ID, which is present in the URL. 
 - [ ] Automate pronunciation field in anki cards, the idea is to add pronuncation effortlessy, by minimizing user-input as much as possible 
       yet we have thought about creating a python script that identifies the TW and donwload the pronunciation in forvo, and automatically puts in the right place. The challenge is making it more "buky" , so we dont have to go card by card manually.
+- [ ] Create a script that converts a .srt subtitle file in Simplified Chinese to Traditional Chinese.

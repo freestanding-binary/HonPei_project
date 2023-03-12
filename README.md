@@ -12,3 +12,4 @@
       yet we have thought about creating a python script that identifies the TW and donwload the pronunciation in forvo, and automatically puts in the right place. The challenge is making it more "buky" , so we dont have to go card by card manually.
 - [ ] Create a script that converts a .srt subtitle file in Simplified Chinese to Traditional Chinese.
 - [ ] Create a script that takes a Chinese dictionary file (like the ones for GoldenDict, Yomichan, etc.), identifies the Pinyin in the entries and change it for the correspondent Zhuyin (phonetic system used in Taiwan). Romanization is bad.
+- [ ] Create a script in order to quickly and efficiently use this [OCR engine](https://github.com/ooooverflow/chinese-ocr) for Mandarin Chinese. Choose a keybind, press it, select an area with Chinese text with your mouse and the OCR will work, the recognized text will be sent to your clipboard. ImageMagick might be useful.

@@ -7,10 +7,13 @@ take_screenshot() {
 }
 
 # Take screenshot and pass to Python script
-python - <<EOF
-
-# Assuming that you already installed cnocr with pip
+screenshot_data=$(take_screenshot | python -c '
 import sys
+
+screenshot_data = sys.stdin.buffer.read()
+
+# Process screenshot data as needed
+# ...
 from cnocr import CnOcr
 
 img_fp = sys.stdin.buffer.read() # reads directly from stdin
@@ -19,4 +22,6 @@ out = ocr.ocr(img_fp)
 
 print(out)
 
-EOF < <(take_screenshot)
+')
+
+notify-send $screenshot_data

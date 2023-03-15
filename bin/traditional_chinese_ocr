@@ -9,6 +9,7 @@ take_screenshot() {
 # Take screenshot and pass to Python script
 python - <<EOF
 
+# Assuming that you already installed cnocr with pip
 import sys
 from cnocr import CnOcr
 

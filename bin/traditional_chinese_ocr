@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Define take_screenshot function
+take_screenshot() {
+    maim --select --hidecursor --format=jpg --quality=10 -u |
+        convert jpg:- -alpha off -bordercolor White -border 2x2 jpg:-
+}
+
+# Take screenshot and pass to Python script
+python - <<EOF
+
+import sys
+from cnocr import CnOcr
+
+img_fp = sys.stdin.buffer.read() # reads directly from stdin
+ocr = CnOcr(rec_model_name='chinese_cht_PP-OCRv3') # use the traditional Chinese recognition model
+out = ocr.ocr(img_fp)
+
+print(out)
+
+EOF < <(take_screenshot)

@@ -15,3 +15,10 @@
 - [ ] Create a script in order to quickly and efficiently use this [OCR engine](https://github.com/ooooverflow/chinese-ocr) for Mandarin Chinese. Choose a keybind, press it, select an area with Chinese text with your mouse and the OCR will work, the recognized text will be sent to your clipboard. ImageMagick might be useful.
 - [ ] Analyze [this tool's](https://github.com/emc2314/arujisho) code and change its built-in resources for Mandarin Chinese ones. 
 > Dictionaries can NOT be imported dynamically. They are built into the app itself. One can build the dictionary database and compile the app himself if needed.
+
+
+## Resources
+
+> https://github.com/KonstantinDjairo/baidu-pan-downloader
+
+> https://github.com/KonstantinDjairo/chinglish

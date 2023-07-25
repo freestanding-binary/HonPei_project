@@ -19,6 +19,11 @@
 - [ ] Word segmentation can be [achieved](https://github.com/KonstantinDjairo/CC-CEDICT-MeCab) by using a trained version of mecab and a modification in [gd-mecab](https://github.com/Ajatt-Tools/gd-tools/#gd-mecab)
 ## Resources
 
+### Cantonese Yomichan Dictionary
+it was taken from [this](https://github.com/MarvNC/yomichan-dictionaries#cantonese) repo
+![image](https://github.com/freestanding-binary/HonPei_project/assets/53496273/47e34bc7-215c-49cf-853d-245cea4d749d)
+
+
 > [extract helper](https://github.com/KonstantinDjairo/TaiPei_project/blob/main/bin/extract.sh)
 ![image](https://github.com/KonstantinDjairo/TaiPei_project/assets/53496273/fcfba0f0-4e33-4d6e-a3e4-e3f11e5b18bd)
 

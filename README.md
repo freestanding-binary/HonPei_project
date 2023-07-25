@@ -16,7 +16,8 @@
 - [ ] Analyze [this tool's](https://github.com/emc2314/arujisho) code and change its built-in resources for Mandarin Chinese ones. 
 > Dictionaries can NOT be imported dynamically. They are built into the app itself. One can build the dictionary database and compile the app himself if needed.
 
-- [ ] Word segmentation can be [achieved](https://github.com/KonstantinDjairo/CC-CEDICT-MeCab) by using a trained version of mecab and a modification in [gd-mecab](https://github.com/Ajatt-Tools/gd-tools/#gd-mecab)
+- [ ] Word segmentation can be [achieved](https://github.com/KonstantinDjairo/CC-CEDICT-MeCab) by using a trained version of mecab and a modification in [gd-mecab](https://github.com/Ajatt-Tools/gd-tools/#gd-mecab) . 
+      It's also worth noticing that those scripts used to create a csv can also be used to create a cantonese version of the same program, by taking the data in cc-canto
 ## Resources
 
 ### Cantonese Yomichan Dictionary
